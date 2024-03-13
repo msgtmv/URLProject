@@ -13,6 +13,7 @@
 		F61B70622BA11E8400AE7594 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F61B70602BA11E8400AE7594 /* Main.storyboard */; };
 		F61B70642BA11E8600AE7594 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61B70632BA11E8600AE7594 /* Assets.xcassets */; };
 		F61B70672BA11E8600AE7594 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F61B70652BA11E8600AE7594 /* LaunchScreen.storyboard */; };
+		F61B706F2BA1215400AE7594 /* Hearthstone.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B706E2BA1215400AE7594 /* Hearthstone.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F61B70632BA11E8600AE7594 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F61B70662BA11E8600AE7594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F61B70682BA11E8600AE7594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F61B706E2BA1215400AE7594 /* Hearthstone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hearthstone.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				F61B70632BA11E8600AE7594 /* Assets.xcassets */,
 				F61B70652BA11E8600AE7594 /* LaunchScreen.storyboard */,
 				F61B70682BA11E8600AE7594 /* Info.plist */,
+				F61B706E2BA1215400AE7594 /* Hearthstone.swift */,
 			);
 			path = URLProject;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F61B705F2BA11E8400AE7594 /* ViewController.swift in Sources */,
+				F61B706F2BA1215400AE7594 /* Hearthstone.swift in Sources */,
 				F61B705B2BA11E8400AE7594 /* AppDelegate.swift in Sources */,
 				F61B705D2BA11E8400AE7594 /* SceneDelegate.swift in Sources */,
 			);
@@ -307,9 +311,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.MuslimGapparov.URLProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -335,9 +343,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.MuslimGapparov.URLProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
